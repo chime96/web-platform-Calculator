@@ -1,0 +1,35 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.button{
+  width:50;
+  height:50;
+  font-size:25;
+  margin:2;
+  cursor:pointer;
+  color:goldenrod;
+  border-radius:10px;
+}
+
+
+
+.textview{
+  width:217;
+  margin:5;
+  font-size:25;
+  padding:10;
+}
+
+.main{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%)translateY(-50%);
+}
+
+.bg{
+  background:linear-gradient(to right,black,gray,white);
+  height:100%;
+}
